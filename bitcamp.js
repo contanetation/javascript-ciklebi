@@ -8,7 +8,7 @@ while(number!==secretNumber){
  
  
  let secretNumber=72;
- let number;
+ number;
 
  do{
      number=Number(prompt("secret number"));
@@ -27,18 +27,18 @@ while(number!==secretNumber){
  
  /* დაწერე პროგრამა, რომელიც სთხოვს მომხმარებელს შეიყვანოს რიცხვი და დაბეჭდოს hello იმდენჯერ რამდენსაც უდრის ეს შეყვანილი რიცხ*/
  let Input = Number(prompt("pick the number"))
- for(let I = 0; I < Input; I++) {*/ 
+ for(let I = 0; I < Input; I++) { 
      console.log('HELLO');
  }
  /*დაწერე პროგრამა, რომელიც გამოთვლის ყველა რიცხვის ჯამს 1დან 100დე*/
  
- let result = 0;
-for (let i = 1; i < 100; i++) {
-  result = result + i;
+ let result1 = 0;
+for (let i = 0; i < 100; i++) {
+  result1 = result1 + i;
 }
- console.log(result)
+ console.log(result1)
  /* დაწერეთ პროგრამა, რომელიც გამოთვლის კენტი რიცხვების ჯამს 0დან 100დე*/
- let result=0
+ let result2=0
  for(let i=1; i<=100; i++) {
   if(i % 2 !==0) {
       
